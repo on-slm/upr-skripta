@@ -826,12 +826,19 @@ int main() {
 <p>Když chcete vypsat například výsledek vyhodnocení výrazu <code>10 + 5</code>, tak stačí napsat:
 <code>printf(&quot;%d\n&quot;, 10 + 5);</code> a na výstup programu by se měl vypsat text <code>15</code>.</p>
 <blockquote>
-<p>#Q
+<p>#Q1
 Proc se vyhodnoti 10 + 5 drive? Proc se nevyhodnoti drive napr. <code>printf(&quot;%d&quot;, 10</code>?
 Otazkou by samozrejme bylo, co by se v takovem pripade stalo s tim vynehanym <code>+ 5)</code> :-)</p>
 </blockquote>
 <p>Pokud chcete vytisknout více hodnot, tak prostě řádek s <code>printf(…);</code> zkopírujte a na uvedené místo
-vložte jiný výraz. Počítač provádí programy řádek po řádku, odshora dolů. Doplňte na místo komentáře
+vložte jiný výraz. Počítač provádí programy řádek po řádku, odshora dolů.</p>
+<blockquote>
+<p>#Q2 &quot;Počítač provádí programy řádek po řádku, odshora dolů.&quot;
+Jak se to vezme, ne? Po nactiSoubor1 nemusi byt nasledujici radek nactiSoubor2 vubec proveden,
+pokud nactiSoubor1 typicky vyhodilo error. Potom se pravadi obvykle uplne jine radky.
+Anebo si pletu &quot;pocitac provadi&quot; s &quot;program provadi&quot; nebo tak neco?</p>
+</blockquote>
+<p>Doplňte na místo komentáře
 do programu níže nějaký výraz a zkuste uhodnout, co se vypíše na výstup po přeložení a spuštění programu.</p>
 <pre><code class="language-c editable">#include &lt;stdio.h&gt;
 
