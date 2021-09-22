@@ -140,3 +140,20 @@ sekcích.
 Jakmile se budete postupně učit o jednotlivých konstrukcích jazyka C, je důležité uvědomit si, jaký
 je rozdíl mezi výrazem (něco, co se dá vypočítat) a příkazem, pomocí kterého počítači říkáme, aby
 něco (s nějakým výrazem) udělal (například vypsal ho na výstup, zapsal do paměti atd.).
+
+> #Q3 Ackoliv jsem se to snazil pochopit za poslednich 10 let milionkrat, porad mi rozdil mezi expressions
+> a statements neni jasny. Tato kapitola mi v tom poradek neudelala.
+> Expression = neco, co se da vypocitat tak, aby vysledkem byla nejaka hodnota. Hodnotou je zde mysleno
+> striktne ciselna hodnota? Pak je ale expression cela komplet cela funkce main, kdyz vraci ciselnou
+> hodnotu 1? Osamocene vyhrazne keywords jazyka, for, if, sizeof, *, int apod. jsou co? Vypocitat se
+> nedaji, tudiz to expressions nebudou. Statements tedy az ve spojeni s necim, predpokladam.
+> Dale, je konstrukce if else operatorem? Dokazu si predstavit existenci operatora |x| (abs. hodnota)
+> implementovaneho prave touto konstrucki. Co by pak if/else bylo?
+> Dale, vyse je napsano, ze `printf("string");` je prikaz. A dle posledniho odstavce by pak `"string"`
+> bylo neco, co se da vypocitat. Tezko si predstavit, jak vypocitavam cislo 5, znak `x` nebo string
+> `text`. Neni to spise neco, *s cim se da pocitat*? Atd. atp.
+> Je mi jasne, ze v C99 bude ten rozdil nejak formalne exaktne vymezen. Mozna by se ta hromada ruznych
+> druhu vysvetleni (v dobre vire, urcite), co jsem uz slysel, mela vymenit za nudny formalismus.
+> Mozna by to bylo lepe.
+
+Něco, co se dá vypočítat (tak, aby výsledkem byla nějaká hodnota), se nazývá **výraz** (*expression*).
