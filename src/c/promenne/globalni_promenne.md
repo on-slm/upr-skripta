@@ -51,6 +51,8 @@ měnit. Jakmile totiž lze proměnnou odkudkoliv změnit, snadno se vám může 
 vám bude hodnotu takovéto proměnné měnit "pod rukama", a bude obtížné najít kód, který danou proměnnou
 změnil (a také důvod, proč ji změnil).
 
-> Globální proměnné také mohou způsobovat problémy, pokud ve vašem problému budete využívat více jader
+> Globální proměnné také mohou způsobovat problémy, pokud ve vašem problému[^2] budete využívat více jader
 > procesoru. Tzv. paralelní programy nicméně nebudeme v tomto předmětu řešit, více se o nich dozvíte
 > například v předmětu [Architektury počítačů a paralelních systémů](http://poli.cs.vsb.cz/edu/apps/).
+
+[^2]: "ve vasem programu?"

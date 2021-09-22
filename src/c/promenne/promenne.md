@@ -74,6 +74,8 @@ popřípadě
 
 pokud použijeme inicializaci.
 
+> #Q4 Nerika se inicializaci take deklarace? Anebo to si s necim pletu...
+
 > Všimněte si, že na konci definice proměnné vždy musí následovat středník (**;**).
 > Opomenutí středníku na konci příkazu je velmi častá chyba, která často končí těžko srozumitelnými chybovými
 > hláškami při překladu. Dávejte si tak na středníky pozor, obzvláště ze začátku.
@@ -83,6 +85,8 @@ Je opravdu důležité do proměnné vždy při její definici přiřadit nějak
 neuděláme, tak její hodnota bude **nedefinovaná** (*undefined*). Čtení hodnoty takovéto nedefinované proměnné
 způsobuje **nedefinované chování** (*undefined behaviour*)[^2] programu. Pokud k tomu dojde, tak si překladač
 s vaším programem může udělat, co se mu zachce, a váš program se poté může chovat nepředvídatelně.
+
+> #Q5 Takze v C neexistuji specialni datove typy a la `undefined`, `NIL` apod.?
 
 [^2]: Situace, které můžou způsobit nedefinované chování, budou dále v textu označené pomocí ikony
 💣.
