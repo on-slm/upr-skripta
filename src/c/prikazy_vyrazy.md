@@ -85,6 +85,10 @@ int main() {
 Když chcete vypsat například výsledek vyhodnocení výrazu `10 + 5`, tak stačí napsat:
 `printf("%d\n", 10 + 5);` a na výstup programu by se měl vypsat text `15`.
 
+> #Q
+> Proc se vyhodnoti 10 + 5 drive? Proc se nevyhodnoti drive napr. `printf("%d", 10`?
+> Otazkou by samozrejme bylo, co by se v takovem pripade stalo s tim vynehanym `+ 5)` :-)
+
 Pokud chcete vytisknout více hodnot, tak prostě řádek s `printf(…);` zkopírujte a na uvedené místo
 vložte jiný výraz. Počítač provádí programy řádek po řádku, odshora dolů. Doplňte na místo komentáře
 do programu níže nějaký výraz a zkuste uhodnout, co se vypíše na výstup po přeložení a spuštění programu.
