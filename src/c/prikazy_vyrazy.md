@@ -85,12 +85,19 @@ int main() {
 Když chcete vypsat například výsledek vyhodnocení výrazu `10 + 5`, tak stačí napsat:
 `printf("%d\n", 10 + 5);` a na výstup programu by se měl vypsat text `15`.
 
-> #Q
+> #Q1
 > Proc se vyhodnoti 10 + 5 drive? Proc se nevyhodnoti drive napr. `printf("%d", 10`?
 > Otazkou by samozrejme bylo, co by se v takovem pripade stalo s tim vynehanym `+ 5)` :-)
 
 Pokud chcete vytisknout více hodnot, tak prostě řádek s `printf(…);` zkopírujte a na uvedené místo
-vložte jiný výraz. Počítač provádí programy řádek po řádku, odshora dolů. Doplňte na místo komentáře
+vložte jiný výraz. Počítač provádí programy řádek po řádku, odshora dolů.
+
+> #Q2 "Počítač provádí programy řádek po řádku, odshora dolů."
+> Jak se to vezme, ne? Po nactiSoubor1 nemusi byt nasledujici radek nactiSoubor2 vubec proveden,
+> pokud nactiSoubor1 typicky vyhodilo error. Potom se pravadi obvykle uplne jine radky.
+> Anebo si pletu "pocitac provadi" s "program provadi" nebo tak neco?
+
+Doplňte na místo komentáře
 do programu níže nějaký výraz a zkuste uhodnout, co se vypíše na výstup po přeložení a spuštění programu.
 ```c,editable
 #include <stdio.h>
