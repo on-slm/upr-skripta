@@ -42,7 +42,7 @@ Každý vestavěný datový typ (`char`, `short`, `int`) a modifikátor znaménk
 je zároveň klíčovým slovem.
 
 Pokud ze začátku nebudete vědět, který typ zvolit, tak pro základní aritmetické operace používejte
-ze začátku typy se znaménkem s 4 byty, tedy `int`. Tento typ je také implicitně použit, když v programu
+~ze začátku~ typy se znaménkem s 4 byty, tedy `int`. Tento typ je také implicitně použit, když v programu
 použijete číselný výraz, například výraz `1` má datový typ `int`[^3].
 
 [^3]: Pouze pokud by výraz nešel reprezentovat typem `int`, použije se číselný typ s více byty.
