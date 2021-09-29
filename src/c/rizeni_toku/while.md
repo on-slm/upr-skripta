@@ -37,8 +37,8 @@ se tělo cyklu nemusí provést ani jednou (tj. bude mít nula iterací).
 
 Je důležité dávat si pozor na to, aby cyklus, který použijeme, nebyl nechtěně **nekonečný**
 (*infinite loop*), jinak by náš program nikdy neskončil. Zkuste v kódu výše zakomentovat nebo odstranit
-řádek `count = count + 1;` a zkuste program spustit. Jelikož se hodnota proměnné `count` nebude nijak
-měnit, tak výraz `count < 5` bude stále pravdivý a cyklus se tak bude provádět neustále dokola.
+řádek `pocet = pocet + 1;` a zkuste program spustit. Jelikož se hodnota proměnné `pocet` nebude nijak
+měnit, tak výraz `pocet < 5` bude stále pravdivý a cyklus se tak bude provádět neustále dokola.
 Této situaci se lidově říká "zacyklení"[^2].
 
 > Pokud se vám někdy stalo, že se program, který jste zrovna používali, "zaseknul" a přestal reagovat
