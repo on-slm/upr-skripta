@@ -954,6 +954,9 @@ int b = 10 + 15;
 <p><code>&lt;datový typ&gt; &lt;název&gt; = &lt;výraz&gt;;</code></p>
 <p>pokud použijeme inicializaci.</p>
 <blockquote>
+<p>#Q4 Nerika se inicializaci take deklarace? Anebo to si s necim pletu...</p>
+</blockquote>
+<blockquote>
 <p>Všimněte si, že na konci definice proměnné vždy musí následovat středník (<strong>;</strong>).
 Opomenutí středníku na konci příkazu je velmi častá chyba, která často končí těžko srozumitelnými chybovými
 hláškami při překladu. Dávejte si tak na středníky pozor, obzvláště ze začátku.</p>
@@ -966,6 +969,9 @@ s vaším programem může udělat, co se mu zachce, a váš program se poté m�
 <span class='sidenote'><p><sup class='number'>2</sup>Situace, které můžou způsobit nedefinované chování, budou dále v textu označené pomocí ikony
 💣.</p>
 </span>
+<blockquote>
+<p>#Q5 Takze v C neexistuji specialni datove typy a la <code>undefined</code>, <code>NIL</code> apod.?</p>
+</blockquote>
 <p><strong>Proto vždy dávejte proměnným iniciální hodnotu!</strong></p>
 <h3><a class="header" href="#Čtení" id="Čtení">Čtení</a></h3>
 <p>Pokud v programu použijeme název platné proměnné, tak vytvoříme výraz, který se vyhodnotí jako její
@@ -1086,10 +1092,11 @@ měnit. Jakmile totiž lze proměnnou odkudkoliv změnit, snadno se vám může 
 vám bude hodnotu takovéto proměnné měnit &quot;pod rukama&quot;, a bude obtížné najít kód, který danou proměnnou
 změnil (a také důvod, proč ji změnil).</p>
 <blockquote>
-<p>Globální proměnné také mohou způsobovat problémy, pokud ve vašem problému budete využívat více jader
+<p>Globální proměnné také mohou způsobovat problémy, pokud ve vašem problému<sup class='margin-toggle sidenote-number'>2</sup> budete využívat více jader
 procesoru. Tzv. paralelní programy nicméně nebudeme v tomto předmětu řešit, více se o nich dozvíte
 například v předmětu <a href="http://poli.cs.vsb.cz/edu/apps/">Architektury počítačů a paralelních systémů</a>.</p>
-</blockquote>
+<span class='sidenote'><p><sup class='number'>2</sup>&quot;ve vasem programu?&quot;</p>
+</span></blockquote>
 <h1><a class="header" href="#konstanty" id="konstanty">Konstanty</a></h1>
 <p>V určitých případech můžeme chtít mít proměnné s konstantní hodnotou, které by se neměly v průběhu
 programu měnit. Takové proměnné se nazývají <strong>konstanty</strong> (<em>constants</em>).</p>
@@ -1322,7 +1329,7 @@ nejčastěji setkat na 64-bitovém x86 Linuxovém systému s překladačem GCC p
 <p>Každý vestavěný datový typ (<code>char</code>, <code>short</code>, <code>int</code>) a modifikátor znaménkovosti (<code>signed</code>, <code>unsigned</code>)
 je zároveň klíčovým slovem.</p>
 <p>Pokud ze začátku nebudete vědět, který typ zvolit, tak pro základní aritmetické operace používejte
-ze začátku typy se znaménkem s 4 byty, tedy <code>int</code>. Tento typ je také implicitně použit, když v programu
+~ze začátku~ typy se znaménkem s 4 byty, tedy <code>int</code>. Tento typ je také implicitně použit, když v programu
 použijete číselný výraz, například výraz <code>1</code> má datový typ <code>int</code><sup class='margin-toggle sidenote-number'>3</sup>.</p>
 <span class='sidenote'><p><sup class='number'>3</sup>Pouze pokud by výraz nešel reprezentovat typem <code>int</code>, použije se číselný typ s více byty.</p>
 </span>
