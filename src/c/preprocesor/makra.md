@@ -5,8 +5,8 @@
 
 Občas můžeme chtít v programech použít stejnou hodnotu na více místech. V takovém případě se hodí
 danou hodnotu pojmenovat, aby bylo zřejmé, co reprezentuje. Zároveň by bylo užitečné ji nadefinovat
-pouze na jednom místě, abychom její hodnotu mohli jednoduše upravit bez toho, abychom při tom
-museli upravovat všechna místa, kde danou hodnotu používáme.
+pouze na jednom místě, abychom její hodnotu mohli jednoduše upravit, aniž by bylo třeba ji upravit
+na všech místech, kde danou hodnotu používáme.
 
 Pomocí příkazu `#define <název> <hodnota>` můžeme vytvořit **makro** (*macro*) s daným názvem a
 hodnotou. Pokud preprocesor v kódu od řádku s `#define` do konce zdrojového souboru narazí na název
