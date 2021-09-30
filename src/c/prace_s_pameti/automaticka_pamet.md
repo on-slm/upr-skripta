@@ -44,8 +44,8 @@ důvodů zásobník roste "dolů", tj. nové rámce se vytvářejí na nižší 
 Používání automatické paměti má značné výhody:
 - Nemusíme se starat o to, jak je paměť alokována a uvolňována, vše za nás řeší překladač, který
 generuje instrukce pro vytváření a uvolňování rámců při volání/dokončení provádění funkce.
-- Alokace i uvolnění paměti je velmi rychlá. Jde v podstatě o provedení jediné instrukce, která si
-pamatuje, kde zrovna zásobník "končí" v paměti.
+- Alokace i uvolnění paměti jsou velmi rychlé. Jde v podstatě o provedení jediné instrukce, 
+která si pamatuje, kde zrovna zásobník "končí" v paměti.
 
 Pokud tedy nepotřebujete žádnou složitější funkcionalitu, první volbou by mělo být právě použití
 automatické paměti (tedy lokálních proměnných).
