@@ -2870,8 +2870,8 @@ a vrátit se k ní později.</p>
 </blockquote>
 <p>Občas můžeme chtít v programech použít stejnou hodnotu na více místech. V takovém případě se hodí
 danou hodnotu pojmenovat, aby bylo zřejmé, co reprezentuje. Zároveň by bylo užitečné ji nadefinovat
-pouze na jednom místě, abychom její hodnotu mohli jednoduše upravit bez toho, abychom při tom
-museli upravovat všechna místa, kde danou hodnotu používáme.</p>
+pouze na jednom místě, abychom její hodnotu mohli jednoduše upravit, aniž by bylo třeba ji upravit
+na všech místech, kde danou hodnotu používáme.</p>
 <p>Pomocí příkazu <code>#define &lt;název&gt; &lt;hodnota&gt;</code> můžeme vytvořit <strong>makro</strong> (<em>macro</em>) s daným názvem a
 hodnotou. Pokud preprocesor v kódu od řádku s <code>#define</code> do konce zdrojového souboru narazí na název
 makra, tak tento název nahradí hodnotou makra (opět se jedná o prosté textové nahrazení, tedy
@@ -3054,8 +3054,8 @@ důvodů zásobník roste &quot;dolů&quot;, tj. nové rámce se vytvářejí na
 <ul>
 <li>Nemusíme se starat o to, jak je paměť alokována a uvolňována, vše za nás řeší překladač, který
 generuje instrukce pro vytváření a uvolňování rámců při volání/dokončení provádění funkce.</li>
-<li>Alokace i uvolnění paměti je velmi rychlá. Jde v podstatě o provedení jediné instrukce, která si
-pamatuje, kde zrovna zásobník &quot;končí&quot; v paměti.</li>
+<li>Alokace i uvolnění paměti jsou velmi rychlé. Jde v podstatě o provedení jediné instrukce, 
+která si pamatuje, kde zrovna zásobník &quot;končí&quot; v paměti.</li>
 </ul>
 <p>Pokud tedy nepotřebujete žádnou složitější funkcionalitu, první volbou by mělo být právě použití
 automatické paměti (tedy lokálních proměnných).</p>
@@ -3084,7 +3084,7 @@ jak pracovat přímo s adresami v paměti, k čemuž slouží <a href="c/prace_s
 hodnoty v paměti pomocí <a href="c/prace_s_pameti/../../uvod/pamet.html#adresov%C3%A1n%C3%AD-pam%C4%9Bti">adres</a>. Adresa je číslo, takže
 bychom mohli pro popis adres používat například datový typ <code>unsigned int</code><sup class='margin-toggle sidenote-number'>1</sup>. To by ale nebyl dobrý
 nápad, protože tento datový typ neumožňuje provádět operace, které bychom s adresami chtěli dělat
-(načíst hodnotu z adresy či zapsat hodnotu na adresu), a naopak umožňuje provádět operace, které s
+(načíst hodnotu z adresy či zapsat hodnotu do adresy), a naopak umožňuje provádět operace, které s
 adresami dělat nechceme (například násobení či dělení adres obvykle nedává valný smysl).</p>
 <span class='sidenote'><p><sup class='number'>1</sup>Nejnižší možná adresa je <code>0</code>, takže záporné hodnoty nemá cenu reprezentovat.</p>
 </span>
