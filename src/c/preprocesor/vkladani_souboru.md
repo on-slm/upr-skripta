@@ -11,11 +11,10 @@ Jakmile preprocesor narazí na tento příkaz, tak se pokusí najít soubor na u
 jeho obsah (tj. vyhodnotí případné další příkazy jako `#include`, které v něm mohou být) a poté jeho
 obsah vloží na místo, kde je `#include` použit. Jedná se o prosté textové nahrazení (`Ctrl+C -> Ctrl+V`).
 
-Tento příkaz slouží k tomu, abychom mohli používat stejný kód ve více souborech bez toho, abychom
-jej museli neustále ručně kopírovat. Prozatím budeme vkládat do našeho kódu zejména soubory
-obsahující různé funkce [standardní knihovny *C*](../funkce/stdlib.md). Později si ukážeme, jak
-vytvořit vlastní soubory, které lze vkládat, a vytvářet tak *C* programy sestávající se z
-[více zdrojových souborů](../modularizace/modularizace.md).
+Tento příkaz slouží k tomu, abychom mohli používat stejný kód ve více souborech, aniž by bylo nutné
+je neustále ručně kopírovat. Prozatím budeme vkládat do našeho kódu zejména soubory obsahující 
+různé funkce [standardní knihovny *C*](../funkce/stdlib.md). Později si ukážeme, jak vytvořit vlastní 
+soubory, které lze vkládat, a vytvářet tak *C* programy sestávající se z [více zdrojových souborů](../modularizace/modularizace.md).
 
 Zkuste si například tento zdrojový soubor pojmenovat jako `main.c` a pomocí příkazu `gcc -P -E main.c`
 v terminálu zjistit, jak vypadá poté, co na něj byl aplikován preprocesor:
