@@ -193,11 +193,10 @@ existuje ve dvou variantách:</p>
 <p>Jakmile preprocesor narazí na tento příkaz, tak se pokusí najít soubor na uvedené cestě, zpracuje
 jeho obsah (tj. vyhodnotí případné další příkazy jako <code>#include</code>, které v něm mohou být) a poté jeho
 obsah vloží na místo, kde je <code>#include</code> použit. Jedná se o prosté textové nahrazení (<code>Ctrl+C -&gt; Ctrl+V</code>).</p>
-<p>Tento příkaz slouží k tomu, abychom mohli používat stejný kód ve více souborech bez toho, abychom
-jej museli neustále ručně kopírovat. Prozatím budeme vkládat do našeho kódu zejména soubory
-obsahující různé funkce <a href="../funkce/stdlib.html">standardní knihovny <em>C</em></a>. Později si ukážeme, jak
-vytvořit vlastní soubory, které lze vkládat, a vytvářet tak <em>C</em> programy sestávající se z
-<a href="../modularizace/modularizace.html">více zdrojových souborů</a>.</p>
+<p>Tento příkaz slouží k tomu, abychom mohli používat stejný kód ve více souborech, aniž by bylo nutné
+je neustále ručně kopírovat. Prozatím budeme vkládat do našeho kódu zejména soubory obsahující 
+různé funkce <a href="../funkce/stdlib.html">standardní knihovny <em>C</em></a>. Později si ukážeme, jak vytvořit vlastní 
+soubory, které lze vkládat, a vytvářet tak <em>C</em> programy sestávající se z <a href="../modularizace/modularizace.html">více zdrojových souborů</a>.</p>
 <p>Zkuste si například tento zdrojový soubor pojmenovat jako <code>main.c</code> a pomocí příkazu <code>gcc -P -E main.c</code>
 v terminálu zjistit, jak vypadá poté, co na něj byl aplikován preprocesor:</p>
 <pre><code class="language-c">#include &lt;stdio.h&gt;

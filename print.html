@@ -2549,11 +2549,10 @@ existuje ve dvou variantách:</p>
 <p>Jakmile preprocesor narazí na tento příkaz, tak se pokusí najít soubor na uvedené cestě, zpracuje
 jeho obsah (tj. vyhodnotí případné další příkazy jako <code>#include</code>, které v něm mohou být) a poté jeho
 obsah vloží na místo, kde je <code>#include</code> použit. Jedná se o prosté textové nahrazení (<code>Ctrl+C -&gt; Ctrl+V</code>).</p>
-<p>Tento příkaz slouží k tomu, abychom mohli používat stejný kód ve více souborech bez toho, abychom
-jej museli neustále ručně kopírovat. Prozatím budeme vkládat do našeho kódu zejména soubory
-obsahující různé funkce <a href="c/preprocesor/../funkce/stdlib.html">standardní knihovny <em>C</em></a>. Později si ukážeme, jak
-vytvořit vlastní soubory, které lze vkládat, a vytvářet tak <em>C</em> programy sestávající se z
-<a href="c/preprocesor/../modularizace/modularizace.html">více zdrojových souborů</a>.</p>
+<p>Tento příkaz slouží k tomu, abychom mohli používat stejný kód ve více souborech, aniž by bylo nutné
+je neustále ručně kopírovat. Prozatím budeme vkládat do našeho kódu zejména soubory obsahující 
+různé funkce <a href="c/preprocesor/../funkce/stdlib.html">standardní knihovny <em>C</em></a>. Později si ukážeme, jak vytvořit vlastní 
+soubory, které lze vkládat, a vytvářet tak <em>C</em> programy sestávající se z <a href="c/preprocesor/../modularizace/modularizace.html">více zdrojových souborů</a>.</p>
 <p>Zkuste si například tento zdrojový soubor pojmenovat jako <code>main.c</code> a pomocí příkazu <code>gcc -P -E main.c</code>
 v terminálu zjistit, jak vypadá poté, co na něj byl aplikován preprocesor:</p>
 <pre><code class="language-c">#include &lt;stdio.h&gt;
@@ -2978,7 +2977,7 @@ nahradí během překladu programu, takže samy o sobě žádnou paměť nezabí
 <p>Nicméně, makra jsou občas problémová kvůli toho, že se nahrazují čistě jako text. <strong>Pokud je to tedy
 možné, zkuste raději použít pro definici konstant v kódu konstantní globální proměnné.</strong></p>
 <h2><a class="header" href="#podmíněný-překlad" id="podmíněný-překlad">Podmíněný překlad</a></h2>
-<p>Makra mohou také být použity k tzv. <strong>podmíněnému překladu</strong> (<em>conditional compilation</em>). Pomocí
+<p>Makra mohou také být použita k tzv. <strong>podmíněnému překladu</strong> (<em>conditional compilation</em>). Pomocí
 příkazů preprocesoru jako <code>#ifdef</code> nebo <code>#if</code> můžete přeložit kus kódu pouze, pokud je nadefinované
 určité makro (popřípadě pouze pokud má určitou hodnotu). Toho se běžně využívá například pro tvorbu
 programů, které jsou kompatibilní s více operačními systémy (např. jedna funkce může mít jinou
@@ -7094,6 +7093,10 @@ v programování.</p>
 <li><a href="https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=3">Online Judge</a></li>
 <li><a href="https://w3resource.com/c-programming-exercises/">W3 C programming exercises</a></li>
 </ul>
+<blockquote>
+<p>MOJE TIPY:
+https://stackoverflow.com/questions/176409/build-a-simple-http-server-in-c <strong>Build a simple HTTP server in C (1st answer)</strong> + https://www.jmarshall.com/easy/http/ + https://www.google.com/search?q=sockets+tutorial</p>
+</blockquote>
 <h1><a class="header" href="#základy" id="základy">Základy</a></h1>
 <h2><a class="header" href="#obvod-a-obsah-obdélníku" id="obvod-a-obsah-obdélníku">Obvod a obsah obdélníku</a></h2>
 <p>Program vypočítá a vypíše obvod a obsah obdélníku ze dvou celočíselných velikosti stran \( a \), \( b \) podle známých vzorců.</p>
