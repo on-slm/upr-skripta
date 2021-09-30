@@ -3,7 +3,7 @@ Abychom v *C* mohli manuálně pracovat s pamětí, potřebujeme mít možnost o
 hodnoty v paměti pomocí [adres](../../uvod/pamet.md#adresování-paměti). Adresa je číslo, takže
 bychom mohli pro popis adres používat například datový typ `unsigned int`[^1]. To by ale nebyl dobrý
 nápad, protože tento datový typ neumožňuje provádět operace, které bychom s adresami chtěli dělat
-(načíst hodnotu z adresy či zapsat hodnotu na adresu), a naopak umožňuje provádět operace, které s
+(načíst hodnotu z adresy či zapsat hodnotu do adresy), a naopak umožňuje provádět operace, které s
 adresami dělat nechceme (například násobení či dělení adres obvykle nedává valný smysl).
 
 [^1]: Nejnižší možná adresa je `0`, takže záporné hodnoty nemá cenu reprezentovat.
