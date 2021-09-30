@@ -2942,7 +2942,7 @@ hodnoty <code>1 + 1</code>, tedy <code>4</code>.</p>
 <p><strong>Vedlejší efekty</strong> Pokud mají argumenty předávané do makra nějaké
 <a href="c/preprocesor/../prikazy_vyrazy.html#vedlej%C5%A1%C3%AD-efekty">vedlejší efekty</a>, je třeba si dávat pozor na to, že makro může
 jednoduše takovýto argument rozkopírovat a tím pádem vedlejší efekt provést vícekrát. Například při
-použití makra <code>MOCNINA</code> výše by zde došlo k dvojnásobené inkrementaci proměnné <code>x</code>:</p>
+použití makra <code>MOCNINA</code> výše by zde došlo k dvojnásobné inkrementaci proměnné <code>x</code>:</p>
 <pre><code class="language-c editable mainbody">#include &lt;stdio.h&gt;
 
 #define MOCNINA(a) a * a
