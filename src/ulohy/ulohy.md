@@ -9,4 +9,4 @@ Další úlohy můžete najít také například na těchto odkazech:
 - [W3 C programming exercises](https://w3resource.com/c-programming-exercises/)
 
 > MOJE TIPY:
-> https://stackoverflow.com/questions/176409/build-a-simple-http-server-in-c **Build a simple HTTP server in C (1st answer)** + https://www.jmarshall.com/easy/http/ + https://www.google.com/search?q=sockets+tutorial
+> https://stackoverflow.com/questions/176409/build-a-simple-http-server-in-c **Build a simple HTTP server in C (1st answer)** + https://www.jmarshall.com/easy/http/ + https://www.google.com/search?q=sockets+tutorial (inspiration: https://www.libhttp.org/)
