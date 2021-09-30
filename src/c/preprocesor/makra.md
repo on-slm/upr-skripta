@@ -84,7 +84,7 @@ můžeme ho napsat takto:
 - **Vedlejší efekty** Pokud mají argumenty předávané do makra nějaké
 [vedlejší efekty](../prikazy_vyrazy.md#vedlejší-efekty), je třeba si dávat pozor na to, že makro může
 jednoduše takovýto argument rozkopírovat a tím pádem vedlejší efekt provést vícekrát. Například při
-použití makra `MOCNINA` výše by zde došlo k dvojnásobené inkrementaci proměnné `x`:
+použití makra `MOCNINA` výše by zde došlo k dvojnásobné inkrementaci proměnné `x`:
 
     ```c,editable,mainbody
     #include <stdio.h>
