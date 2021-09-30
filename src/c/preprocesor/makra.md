@@ -125,7 +125,7 @@ Nicméně, makra jsou občas problémová kvůli toho, že se nahrazují čistě
 možné, zkuste raději použít pro definici konstant v kódu konstantní globální proměnné.**
 
 ## Podmíněný překlad
-Makra mohou také být použity k tzv. **podmíněnému překladu** (*conditional compilation*). Pomocí
+Makra mohou také být použita k tzv. **podmíněnému překladu** (*conditional compilation*). Pomocí
 příkazů preprocesoru jako `#ifdef` nebo `#if` můžete přeložit kus kódu pouze, pokud je nadefinované
 určité makro (popřípadě pouze pokud má určitou hodnotu). Toho se běžně využívá například pro tvorbu
 programů, které jsou kompatibilní s více operačními systémy (např. jedna funkce může mít jinou
