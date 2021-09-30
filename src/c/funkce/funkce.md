@@ -234,7 +234,7 @@ funkce). Takovýhle kód pak lze číst téměř jako větu v přirozeném jazyc
     ```c
     int zivot = vrat_zivoty_hrace(id_hrace);
     zivot = zivot - vypocti_zraneni_prisery(id_prisery);
-    nastav_zivoty_hrace(id_hrace, zivor);
+    nastav_zivoty_hrace(id_hrace, zivot);
     ```
 - **Sdílení kódu** Pokud budete chtít použít kód, který napsal někdo jiný, tak toho můžete dosáhnout
 právě používáním funkcí, které vám někdo [nasdílí](../modularizace/knihovny.md).
